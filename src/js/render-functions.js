@@ -29,7 +29,7 @@ export function renderGallery(images, galleryElement) {
     })
     .join('');
 
-  galleryElement.insertAdjacentHTML('beforeend', markup); 
+  galleryElement.insertAdjacentHTML('beforeend', markup);
 
   const lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
